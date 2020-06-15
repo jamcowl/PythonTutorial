@@ -32,9 +32,18 @@ Hint: use Python's [`open()` and `readline()` functions](https://www.w3schools.c
 ### 2. For loops
 Develop your solution to question 1 using a for loop to print every row to the screen.
 
-Hint: take a look at the answers to [this StackExchange question](https://stackoverflow.com/questions/17949508/python-read-all-text-file-lines-in-loop))
+Hint: take a look at the answers to [this StackExchange question](https://stackoverflow.com/questions/17949508/python-read-all-text-file-lines-in-loop).
 
-3. 
+### 3. For loops with indexed numbers
+Change your `for` loop to track which row number each line of the file is.
+
+Hint: take a look at [this explanation of the `enumerate()` function](https://treyhunner.com/2016/04/how-to-loop-with-indexes-in-python/#enumerate).
+
+### 4. Printing row numbers
+
+Change your `for` loop to print the row number next to each line of the file.
+
+Hint: see [here](https://www.w3schools.com/python/gloss_python_string_concatenation.asp) to learn about concatenating strings in Python and look at [the `str()` function](https://www.w3schools.com/python/gloss_python_string_concatenation.asp) in case you need to combine strings and numbers.
 
 
 

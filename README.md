@@ -104,4 +104,10 @@ Use the values in the `HitRun` column to separate the data into 2 files: `output
 
 Hint: you may have to use [Python's `write()` function](https://www.w3schools.com/python/ref_file_write.asp) twice with 2 different filenames. You could do this in parallel (within a single `for` loop) or in series (2 `for` loops, one after the other). You may wish to convert the value of the `HitRun` column to a `bool` (a Boolean True/False value). See [here](https://kite.com/python/answers/how-to-convert-a-string-to-a-boolean-in-python) for further details. You may have to use an `if()` statement to try and treat the first row (which has column headings) differently to the others.
 
+### 12. Dictionaries
+
+Read in all the car crash data and store it in a dictionary, by human-readable month (i.e. the "keys" will be strings like "Feb 2015"). The "value" should be a list of car crashes which occurred that month. You should store a list of boolean `True`/`False` values to represent each crash as either a hit & run or not a hit & run. Print this dictionary to the screen. Finally, for each month, print statements in the form `"In February 2015, there were 30 crashes of which 12 were hit & run incidents"` to the screen.
+
+Hint: you will have to use [Python's `dict` type](https://www.w3schools.com/python/python_dictionaries.asp) as well as the [lists](https://www.w3schools.com/python/python_lists.asp) you have already been using. You may find it effective to create an empty list for each month, then add the booleans to it with [the `append()` function](https://www.programiz.com/python-programming/methods/list/append). Finally, [the `len()` function](https://www.w3schools.com/python/ref_func_len.asp) or the answers to [this StackExchange question](https://stackoverflow.com/questions/2643850/what-is-a-good-way-to-do-countif-in-python) may help when counting the totals at the end.
+
 ### 999. Other exercises to come

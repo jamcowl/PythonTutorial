@@ -1,6 +1,6 @@
 # James' Python Tutorial Exercises
 
-### Intro
+## Intro
 
 The file `sample2k.txt` contains the first 2000 rows of car crash data. It's a simple `.txt` (text) file, not a `.dta` file, so you won't need any fancy libraries to read it in Python. It looks like this:
 ```
@@ -17,14 +17,22 @@ git clone https://github.com/jamcowl/PythonTutorial.git
 ```
 This will create a folder called `PythonTutorial` with all the tutorial files in it.
 
-### Exercises
+## Exercises
 
-0. Write a Python script called `mycode.py` which can print the words "Hello World" to the screen. (Hint: use Python's [`print()` function](https://www.w3schools.com/python/ref_func_print.asp).)
+### 0. Running a Python script
+Write a Python script called `mycode.py` which can print the words "Hello World" to the screen.
 
+Hint: use Python's [`print()` function](https://www.w3schools.com/python/ref_func_print.asp).
 
-1. Read the data file `sample2k.txt` and print the first few rows to the screen (Hint: use Python's [`open()` and `readline()` functions](https://www.w3schools.com/python/ref_file_readline.asp).)
+### 1. Reading a file
+Read the data file `sample2k.txt` and print the first few rows to the screen.
 
-2. Develop your solution to question 1 using a for loop to print every row to the screen. (Hint: take a look at the answers to [this StackExchange question](https://stackoverflow.com/questions/17949508/python-read-all-text-file-lines-in-loop)).
+Hint: use Python's [`open()` and `readline()` functions](https://www.w3schools.com/python/ref_file_readline.asp).
+
+### 2. For loops
+Develop your solution to question 1 using a for loop to print every row to the screen.
+
+Hint: take a look at the answers to [this StackExchange question](https://stackoverflow.com/questions/17949508/python-read-all-text-file-lines-in-loop))
 
 3. 
 

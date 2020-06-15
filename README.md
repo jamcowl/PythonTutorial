@@ -18,4 +18,9 @@ latitude longitude HitRun year month timeofcrash
 
 
 1. Read the data file `sample2k.txt` and print the first few rows to the screen (Hint: use Python's [`open()` and `readline()` functions](https://www.w3schools.com/python/ref_file_readline.asp).)
-   
+
+2. Develop your solution to question 1 using a for loop to print every row to the screen. (Hint: take a look at the answers to [this StackExchange question](https://stackoverflow.com/questions/17949508/python-read-all-text-file-lines-in-loop)).
+
+3. Use the `#` character at the start of some lines in your `for` loop to comment out the printing lines, so that your screen is not filled with loads of output when you run your code. Use `print()` to add some messages before and after your code so that when you run it, you can see what stage it's at.
+
+4. 

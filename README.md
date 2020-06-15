@@ -2,7 +2,7 @@
 
 ## Intro
 
-The file `sample2k.txt` contains the first 2000 rows of car crash data. It's a simple `.txt` (text) file, not a `.dta` file, so you won't need any fancy libraries to read it in Python. It looks like this:
+The file `sample2k.txt` contains the first 2000 rows of car crash data. It's a simple `.txt` (text) file, not a `.dta` file, so you won't need any fancy libraries to read it in Python. It only contains 5 columns. It looks like this:
 ```
 latitude longitude HitRun year month timeofcrash
 41.3378791809082 -73.08402252197266 0.0 2015.0 1.0 17:03:00

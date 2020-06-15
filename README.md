@@ -2,7 +2,7 @@
 
 ## Intro
 
-The aim of this tutorial is to facilitate trial-and-error learning, by setting you tasks you may or may not know how to complete. Some exercises may take minutes to figure out, others may take a lot longer, because you are _figuring out_ the solution each time, not just following instructions. Hints are provided for tools you may wish to use and places you may find useful information, but the biggest hint of all is this: wing it.
+The aim of this tutorial is to facilitate trial-and-error learning, by setting you tasks you may or may not know how to complete. Some exercises may only take a few minutes to figure out, others may take a lot longer, because you are _figuring out_ the solution each time, not just following instructions. Hints are provided for tools you may wish to use and places you may find useful information, but the biggest hint of all is this: wing it.
 
 Try anything and everything that occurs to you to get the desired outcome from your code, then run it to see if it works. If it doesn't work, try something else and run it again. Google any error messages you get and try out solutions. Even if you don't find someone with your exact problem, try looking for similarities and wiggling your code around a bit, change anything you think might be a common cause of the problem.
 

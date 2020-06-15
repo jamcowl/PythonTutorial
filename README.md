@@ -80,6 +80,8 @@ Hint: take a look at [this documentation on Python lists](https://www.w3schools.
 
 ### 8. Writing to a file
 
-Print just the latitudes and longitudes from the 
+Print just the latitudes and longitudes from the data into a new file called `newsample.txt`.
+
+Hint: take a look at [the examples for Python's `write()` function](https://www.w3schools.com/python/python_file_write.asp).
 
 ### 999. Other exercises to come

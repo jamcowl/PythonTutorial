@@ -94,7 +94,7 @@ Hint: you may wish to use [Python's `if()` command](https://www.w3schools.com/py
 
 ### 10. String manipulation
 
-Create a new file called `output10.txt` containing just the dates from the original sample, but in a more easily readable format, e.g. instead of `2015.0 2.0 12:02:00`, write `Feb-2015, 12:02` on each line.
+Create a new file called `output10.txt` containing just the dates from the original sample, but in a more easily readable format, e.g. instead of `2015.0 2.0 12:02:00`, write `Feb 2015, 12:02` on each line.
 
 Hint: you way wish to create your own [list](https://www.w3schools.com/python/python_lists.asp) of 12 strings, "Jan", "Feb" etc, and use the index of each month's position in the list. You may also wish to use the `split()` method, like in exercise 6, but with "." or ":" as the separator to separate different parts of the string.
 

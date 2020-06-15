@@ -56,7 +56,7 @@ Hint: take a look at [this explanation of the `enumerate()` function](https://tr
 
 ### 4. Printing row numbers
 
-Change your `for` loop to print the row number next to each line of the file.
+Add code within your `for` loop to print the row number next to each line of the file.
 
 Hint: see [here](https://www.w3schools.com/python/gloss_python_string_concatenation.asp) to learn about concatenating strings in Python and look at [the `str()` function](https://www.w3schools.com/python/gloss_python_string_concatenation.asp) in case you need to combine strings and numbers.
 

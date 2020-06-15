@@ -11,6 +11,12 @@ latitude longitude HitRun year month timeofcrash
 41.334938049316406 -73.08783721923828 0.0 2015.0 1.0 14:20:00
 ... etc ...
 ```
+The aim of this tutorial is to facilitate trial-and-error learning, by setting you tasks you may or may not know how to complete. Hints are provided for tools you may wish to use and places you may find useful information, but the biggest hint of all is this: wing it.
+
+Try anything and everything that occurs to you to get the desired outcome from your code, then run it to see if it works. If it doesn't work, try something else and run it again. Google any error messages you get and try out solutions. Even if you don't find someone with your exact problem, try looking for similarities and wiggling your code around a bit, change anything you think might be a common cause of the problem.
+
+Run, run and run your code again. Python lends itself to a fast development cycle of coding iteratively: write code, run code, code fails, fix code, code works, write more code, code fails again, fix code again, rinse and repeat. This trail-and-error approach is a good way to learn what works and what doesn't, and develop your programmer's intuition.
+
 ### Using these tutorial files
 
 1. Install `brew` using the terminal command

@@ -86,7 +86,7 @@ Hint: take a look at [the examples for Python's `write()` function](https://www.
 
 ### 9. If statements
 
-Print just the latitudes and longitudes of carcrashes **which took place in February** into a new file called `output9.txt`.
+Print the row number and a statement on whether the crash "was in February" or "was NOT in February" to the screen, for every row in the data.
 
 Hint: you may wish to use [Python's `if()` command](https://www.w3schools.com/python/python_conditions.asp) and the date columns in the data.
 

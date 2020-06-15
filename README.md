@@ -64,7 +64,7 @@ Hint: see [here](https://www.w3schools.com/python/gloss_python_string_concatenat
 
 Use the `#` character at the start of some lines in your `for` loop to comment out the printing lines, so that your screen is not filled with loads of output when you run your code.
 
-Hint: use `print()` to add some messages before and after your code so that when you run it, you can see what stage it's at.
+Hint: use `print()` to add some messages throughout your code so that when you run it, you can see what stage it's currently at.
 
 ### 6. Splitting strings
 

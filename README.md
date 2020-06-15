@@ -11,16 +11,21 @@ latitude longitude HitRun year month timeofcrash
 41.334938049316406 -73.08783721923828 0.0 2015.0 1.0 14:20:00
 ... etc ...
 ```
-You can download the files in this tutorial with the terminal command
-```
-git clone https://github.com/jamcowl/PythonTutorial.git
-```
-This will create a folder called `PythonTutorial` with all the tutorial files in it.
+### Using these tutorial files
 
-If you have problems with the `git` command, you may need to install it using the terminal command
+1. Install `brew` using the terminal command
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+2. Install `git` using the terminal command
 ```
 brew install git
 ```
+3. Download the files in this tutorial with the terminal command
+```
+git clone https://github.com/jamcowl/PythonTutorial.git
+```
+   This will create a folder called `PythonTutorial` with all the tutorial files in it.
 
 ## Exercises
 

@@ -25,7 +25,7 @@ brew install git
 ```
 git clone https://github.com/jamcowl/PythonTutorial.git
 ```
-    This will create a folder called `PythonTutorial` with all the tutorial files in it.
+This will create a folder called `PythonTutorial` with all the tutorial files in it.
 
 ## Exercises
 

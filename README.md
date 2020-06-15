@@ -45,7 +45,7 @@ Read the data file `sample2k.txt` and print the first few rows to the screen.
 Hint: use Python's [`open()` and `readline()` functions](https://www.w3schools.com/python/ref_file_readline.asp).
 
 ### 2. For loops
-Develop your solution to question 1 using a for loop to print every row to the screen.
+Develop your solution to question 1 using a `for` loop to print every row to the screen.
 
 Hint: take a look at the answers to [this StackExchange question](https://stackoverflow.com/questions/17949508/python-read-all-text-file-lines-in-loop).
 

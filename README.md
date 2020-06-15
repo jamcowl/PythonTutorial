@@ -15,9 +15,11 @@ latitude longitude HitRun year month timeofcrash
 ### Exercises
 
 0. Write a Python script called `mycode.py` which can print the words "Hello World" to the screen.
+
    (Hint: use Python's [`print()` function](https://www.w3schools.com/python/ref_func_print.asp).)
 
 
 1. Read the data file `sample2k.txt` and print the first few rows to the screen
+
    (Hint: use Python's [`open()` and `readline()` functions](https://www.w3schools.com/python/ref_file_readline.asp).)
    

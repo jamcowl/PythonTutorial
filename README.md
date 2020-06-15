@@ -2,15 +2,6 @@
 
 ## Intro
 
-The file `sample2k.txt` contains the first 2000 rows of car crash data. It's a simple `.txt` (text) file, not a `.dta` file, so you won't need any fancy libraries to read it in Python. It only contains 5 columns. It looks like this:
-```
-latitude longitude HitRun year month timeofcrash
-41.3378791809082 -73.08402252197266 0.0 2015.0 1.0 17:03:00
-41.331729888916016 -73.07666778564453 0.0 2015.0 1.0 08:38:00
-41.35139083862305 -73.06727600097656 0.0 2015.0 1.0 12:53:00
-41.334938049316406 -73.08783721923828 0.0 2015.0 1.0 14:20:00
-... etc ...
-```
 The aim of this tutorial is to facilitate trial-and-error learning, by setting you tasks you may or may not know how to complete. Hints are provided for tools you may wish to use and places you may find useful information, but the biggest hint of all is this: wing it.
 
 Try anything and everything that occurs to you to get the desired outcome from your code, then run it to see if it works. If it doesn't work, try something else and run it again. Google any error messages you get and try out solutions. Even if you don't find someone with your exact problem, try looking for similarities and wiggling your code around a bit, change anything you think might be a common cause of the problem.
@@ -31,7 +22,15 @@ brew install git
 ```
 git clone https://github.com/jamcowl/PythonTutorial.git
 ```
-This will create a folder called `PythonTutorial` with all the tutorial files in it.
+This will create a folder called `PythonTutorial` with all the tutorial files in it. The file `sample2k.txt` contains the first 2000 rows of car crash data. It's a simple `.txt` (text) file, not a `.dta` file, so you won't need any fancy libraries to read it in Python. It only contains 5 columns. It looks like this:
+```
+latitude longitude HitRun year month timeofcrash
+41.3378791809082 -73.08402252197266 0.0 2015.0 1.0 17:03:00
+41.331729888916016 -73.07666778564453 0.0 2015.0 1.0 08:38:00
+41.35139083862305 -73.06727600097656 0.0 2015.0 1.0 12:53:00
+41.334938049316406 -73.08783721923828 0.0 2015.0 1.0 14:20:00
+... etc ...
+```
 
 ## Exercises
 

@@ -11,7 +11,7 @@ latitude longitude HitRun year month timeofcrash
 41.334938049316406 -73.08783721923828 0.0 2015.0 1.0 14:20:00
 ... etc ...
 ```
-You can download the files in this tutorial to a folder on your MacBook with the command
+You can download the files in this tutorial with the command
 ```
 git clone https://github.com/jamcowl/PythonTutorial.git
 ```

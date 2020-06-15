@@ -6,7 +6,7 @@ The aim of this tutorial is to facilitate trial-and-error learning, by setting y
 
 Try anything and everything that occurs to you to get the desired outcome from your code, then run it to see if it works. If it doesn't work, try something else and run it again. Google any error messages you get and try out solutions. Even if you don't find someone with your exact problem, try looking for similarities and wiggling your code around a bit, change anything you think might be a common cause of the problem.
 
-Run, run and run your code again. Python lends itself to a fast development cycle of coding iteratively: write code, run code, code fails, fix code, code works, write more code, code fails again, fix code again, rinse and repeat. This trail-and-error approach is a good way to learn what works and what doesn't, and develop your programmer's intuition.
+Run, run and run your code again. Python is quite a forgiving (easy to write) programming language which lends itself to a fast development cycle of coding iteratively: write code, run code, code fails, fix code, code works, write more code, code fails again, fix code again, rinse and repeat. This trial-and-error approach is a good way to learn what works and what doesn't, and develop your programmer's intuition.
 
 ### Using these tutorial files
 

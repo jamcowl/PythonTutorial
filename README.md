@@ -100,8 +100,8 @@ Hint: create your own [list](https://www.w3schools.com/python/python_lists.asp) 
 
 ### 11. Booleans
 
-Use the values in the `HitRun` column to separate the data into 2 files: `output11_hitrun.txt` and `output11_nothitrun.txt`
+Use the values in the `HitRun` column to separate the data into 2 files: `output11_hitrun.txt` and `output11_nothitrun.txt`, which contain the full row of data from crashes which were and were not "hit & run" crashes, respectively. Make sure that both files have column headings.
 
-Hint: you may have to create 2 different files for [Python's `write()` function](https://www.w3schools.com/python/ref_file_write.asp) to write to. You could do this in parallel (within a single `for` loop) or in series (2 `for` loops, one after the other). You may wish to convert the value of the `HitRun` column to a `bool` (a Boolean True/False value). See [here](https://kite.com/python/answers/how-to-convert-a-string-to-a-boolean-in-python) for further details.
+Hint: you may have to create 2 different files for [Python's `write()` function](https://www.w3schools.com/python/ref_file_write.asp) to write to. You could do this in parallel (within a single `for` loop) or in series (2 `for` loops, one after the other). You may wish to convert the value of the `HitRun` column to a `bool` (a Boolean True/False value). See [here](https://kite.com/python/answers/how-to-convert-a-string-to-a-boolean-in-python) for further details. You may have to use an `if()` statement to try and treat the first row (which has column headings) differently to the others.
 
 ### 999. Other exercises to come

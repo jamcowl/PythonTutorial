@@ -24,8 +24,8 @@ brew install git
 3. Download the files in this tutorial with the terminal command
 ```
 git clone https://github.com/jamcowl/PythonTutorial.git
-```  
-This will create a folder called `PythonTutorial` with all the tutorial files in it.
+```
+    This will create a folder called `PythonTutorial` with all the tutorial files in it.
 
 ## Exercises
 

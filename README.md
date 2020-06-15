@@ -2,7 +2,7 @@
 
 ## Intro
 
-The aim of this tutorial is to facilitate trial-and-error learning, by setting you tasks you may or may not know how to complete. Hints are provided for tools you may wish to use and places you may find useful information, but the biggest hint of all is this: wing it.
+The aim of this tutorial is to facilitate trial-and-error learning, by setting you tasks you may or may not know how to complete. Some exercises may take minutes to figure out, others may take a lot longer, because you are _figuring out_ the solution each time, not just following instructions. Hints are provided for tools you may wish to use and places you may find useful information, but the biggest hint of all is this: wing it.
 
 Try anything and everything that occurs to you to get the desired outcome from your code, then run it to see if it works. If it doesn't work, try something else and run it again. Google any error messages you get and try out solutions. Even if you don't find someone with your exact problem, try looking for similarities and wiggling your code around a bit, change anything you think might be a common cause of the problem.
 
@@ -74,8 +74,12 @@ Hint: you can use [the `split()` function](https://www.w3schools.com/python/ref_
 
 ### 7. Lists
 
-Print just the first item in each row (i.e. the latitude only) to the screen.
+Print just the first 2 items in each row (i.e. the latitude and longitudes only) to the screen.
 
 Hint: take a look at [this documentation on Python lists](https://www.w3schools.com/python/python_lists.asp) to see how to pull out a specific item from a list.
+
+### 8. Writing to a file
+
+Print just the latitudes and longitudes from the 
 
 ### 999. Other exercises to come

@@ -11,6 +11,11 @@ latitude longitude HitRun year month timeofcrash
 41.334938049316406 -73.08783721923828 0.0 2015.0 1.0 14:20:00
 ... etc ...
 ```
+You can download the files in this tutorial to a folder on your MacBook with the command
+```
+git clone https://github.com/jamcowl/PythonTutorial.git
+```
+This will create a folder called `PythonTutorial` with all the tutorial files in it.
 
 ### Exercises
 
@@ -21,6 +26,9 @@ latitude longitude HitRun year month timeofcrash
 
 2. Develop your solution to question 1 using a for loop to print every row to the screen. (Hint: take a look at the answers to [this StackExchange question](https://stackoverflow.com/questions/17949508/python-read-all-text-file-lines-in-loop)).
 
-3. Use the `#` character at the start of some lines in your `for` loop to comment out the printing lines, so that your screen is not filled with loads of output when you run your code. Use `print()` to add some messages before and after your code so that when you run it, you can see what stage it's at.
+3. 
 
-4. 
+
+
+Use the `#` character at the start of some lines in your `for` loop to comment out the printing lines, so that your screen is not filled with loads of output when you run your code. Use `print()` to add some messages before and after your code so that when you run it, you can see what stage it's at.
+

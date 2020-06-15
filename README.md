@@ -32,7 +32,7 @@ latitude longitude HitRun year month timeofcrash
 ... etc ...
 ```
 
-## Exercises
+## Exercises Part A
 
 ### 0. Running a Python script
 Write a Python script called `mycode.py` which can print the words "Hello World" to the screen.
@@ -80,8 +80,28 @@ Hint: take a look at [this documentation on Python lists](https://www.w3schools.
 
 ### 8. Writing to a file
 
-Print just the latitudes and longitudes from the data into a new file called `newsample.txt`.
+Print just the latitudes and longitudes from the data into a new file called `output8.txt`.
 
 Hint: take a look at [the examples for Python's `write()` function](https://www.w3schools.com/python/python_file_write.asp).
+
+### 9. If statements
+
+Print just the latitudes and longitudes of carcrashes **which took place in February** into a new file called `output9.txt`.
+
+Hint: you may wish to use [Python's `if()` command](https://www.w3schools.com/python/python_conditions.asp) and the date columns in the data.
+
+## Exercises part B
+
+### 10. String manipulation
+
+Create a new file called `output10.txt` containing just the dates from the original sample, but in a more easily readable format, e.g. instead of `2015.0 2.0 12:02:00`, write `Feb-2015, 12:02` on each line.
+
+Hint: create your own list of 12 strings, "Jan", "Feb" etc, and use the index of each month's position in the list. Use the `split()` method, like in exercise 6, but with "." or ":" as the separatro to separate different parts of the string.
+
+### 11. Booleans
+
+Use the values in the `HitRun` column to separate the data into 2 files: `output11_hitrun.txt` and `output11_nothitrun.txt`
+
+Hint: you may have to create 2 different files for [Python's `write()` function](https://www.w3schools.com/python/ref_file_write.asp) to write to. You could do this in parallel (within a single `for` loop) or in series (2 `for` loops, one after the other). You may wish to convert the value of the `HitRun` column to a `bool` (a Boolean True/False value). See [here](https://kite.com/python/answers/how-to-convert-a-string-to-a-boolean-in-python) for further details.
 
 ### 999. Other exercises to come

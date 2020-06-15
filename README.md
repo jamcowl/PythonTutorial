@@ -52,7 +52,7 @@ Hint: take a look at the answers to [this StackExchange question](https://stacko
 ### 3. For loops with indexed numbers
 Change your `for` loop to track which row number each line of the file is.
 
-Hint: take a look at [this explanation of the `enumerate()` function](https://treyhunner.com/2016/04/how-to-loop-with-indexes-in-python/#enumerate).
+Hint: take a look at [this explanation of the `enumerate()` function](https://book.pythontips.com/en/latest/enumerate.html).
 
 ### 4. Printing row numbers
 

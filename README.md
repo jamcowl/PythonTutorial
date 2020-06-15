@@ -45,7 +45,22 @@ Change your `for` loop to print the row number next to each line of the file.
 
 Hint: see [here](https://www.w3schools.com/python/gloss_python_string_concatenation.asp) to learn about concatenating strings in Python and look at [the `str()` function](https://www.w3schools.com/python/gloss_python_string_concatenation.asp) in case you need to combine strings and numbers.
 
+### 5. Comments
 
+Use the `#` character at the start of some lines in your `for` loop to comment out the printing lines, so that your screen is not filled with loads of output when you run your code.
 
-Use the `#` character at the start of some lines in your `for` loop to comment out the printing lines, so that your screen is not filled with loads of output when you run your code. Use `print()` to add some messages before and after your code so that when you run it, you can see what stage it's at.
+Hint: use `print()` to add some messages before and after your code so that when you run it, you can see what stage it's at.
 
+### 6. Splitting strings
+
+Instead of printing each line of the file as one long string, split it into a list of individual strings.
+
+Hint: you can use [the `split()` function](https://www.w3schools.com/python/ref_string_split.asp) to split a long string into a list of strings.
+
+### 7. Lists
+
+Print just the first item in each row (i.e. the latitude only) to the screen.
+
+Hint: take a look at [this documentation on Python lists](https://www.w3schools.com/python/python_lists.asp) to see how to pull out a specific item from a list.
+
+### 999. Other exercises to come

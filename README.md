@@ -112,7 +112,7 @@ Hint: you will have to use [Python's `dict` type](https://www.w3schools.com/pyth
 
 ### 13. Dictionaries 2: Electric Boogaloop
 
-- Store all the car crash data in a dictionary, with `bool`s as the values, as before, but instead of a month, use the time of day (down to the minute) as the key. Your dictionary should **not** contain any redundant times when no crashes occured.
+- Store all the car crash data in a dictionary with hit & run booleans as before, but instead of a month, use the time of day (down to the minute) as the key. Your dictionary should **not** contain redundant times when no crashes occured.
 
 - Are there any times with more than 1 crash? Print those times to the screen.
 
@@ -122,6 +122,6 @@ Hint: you will have to use [Python's `dict` type](https://www.w3schools.com/pyth
 
 - Sort your dictionary by "hit & run" fraction and print the top 10 worst times to the screen.
 
-Hint: you may wish to start with an empty `dict` and dynamically [add entries to it](https://www.journaldev.com/23232/python-add-to-dictionary) as you read in the data line by line. You may need an `if()` statement to [check if that time already exists in the `dict`](https://able.bio/rhett/check-if-a-key-exists-in-a-python-dictionary--73iajoz). When creating the second dictionary, recall that [you can iterate over a `dict` using a `for` loop](https://mkyong.com/python/python-how-to-loop-a-dictionary/) in much the same way as a list, but with added features.
+Hint: you may wish to start with an empty `dict` and dynamically [add entries to it](https://www.journaldev.com/23232/python-add-to-dictionary) as you read in the data line by line. You may need an `if()` statement to [check if that time already exists in the `dict`](https://able.bio/rhett/check-if-a-key-exists-in-a-python-dictionary--73iajoz). Note that [you can iterate over a `dict` using a `for` loop](https://mkyong.com/python/python-how-to-loop-a-dictionary/) in much the same way as a list.
 
-NB: there are only 1440 minutes in a day, so with 2000 crashes non-uniformly distributed, there will inevitably be some overlap, but also likely some minutes with no recorded crashes at all.
+NB: there are only 60 × 24 = 1440 minutes in a day, so with 2000 crashes non-uniformly distributed, there will inevitably be some overlap, but also likely some minutes with no recorded crashes at all.

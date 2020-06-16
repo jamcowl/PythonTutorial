@@ -169,3 +169,13 @@ print("Number of crashes in Feb 2015 = "+str(nOct2030))
 Hint: look at [these examples](https://www.w3schools.com/python/python_functions.asp) for how to define a function with 1 or more input arguments in Python.
 
 Note: it is a common tendency to make functions that `return` a value of `-1` if they encounter an error, rather than not returning a value at all, or quitting the program entirely. This enables other parts of a program that use a function to have contingencies built in for when something strange happens.
+
+### 15. Modules
+
+* Create a new file, `myTools.py`, containing just the 3 functions you defined in exercise 14 (`listFromFileName()`,`dictFromList()` and `countCrashes()`).
+
+* Create a second new file `simpleTest.py` and copy across _just_ the test code from exercise 14. Do **not** copy across your function definitions. Instead, `import` your new module `myTools` at the top of the file and insert a `myTools.` prefix before the function names. What happens when you run this new `simpleTest.py` code? What if you comment out the `import` line at the top?
+
+Hint: look at [this documentation](https://www.w3schools.com/python/python_modules.asp) on how to use modules in Python.
+
+Protip: you can actually get around using the `myTools.` prefix by using an `import` command of the form `from myTools import *` instead. However, when using multiple modules in a more elaborate program, it can be helpful to keep the named source of each imported function/variable explicit in your code so you can keep track of dependencies.

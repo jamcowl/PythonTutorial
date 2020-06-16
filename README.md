@@ -166,3 +166,4 @@ nOct2030 = countCrashes(crashDict,"Oct 2030")
 print("Number of crashes in Feb 2015 = "+str(nOct2030))
 ```
 
+Hint: look at [these examples](https://www.w3schools.com/python/python_functions.asp) for how to define a function with 1 or more input arguments in Python.

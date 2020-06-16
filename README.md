@@ -139,3 +139,24 @@ Hint: you will have to use [Python's `dict` type](https://www.w3schools.com/pyth
 - Sort your dictionary by "hit & run" fraction and print the top 10 worst times to the screen.
 
 Hint: there are only 60 × 24 = 1440 minutes in a day, so with 2000 crashes non-uniformly distributed, there will inevitably be some overlap, but also likely some minutes with no recorded crashes at all. You may wish to start with an empty `dict` and dynamically [add entries to it](https://www.journaldev.com/23232/python-add-to-dictionary) as you read in the data line by line. You may need an `if()` statement to [check if that time already exists in the `dict`](https://able.bio/rhett/check-if-a-key-exists-in-a-python-dictionary--73iajoz). Note that [you can iterate over a `dict` using a `for` loop](https://mkyong.com/python/python-how-to-loop-a-dictionary/) in much the same way as a list. You can also [sort a `dict` by key or by value](https://www.pythoncentral.io/how-to-sort-python-dictionaries-by-key-or-value/).
+
+### 14. Functions
+
+- Write a function called `listFromFileName()` which takes as its argument a filename and returns a `list` of strings, with 1 string per line of the input file.
+
+- Print the 1st, 2nd, 10th and 100th elements from this list to the screen.
+
+- Create a second function called `dictFromList()` which can take a `list` of strings (in the form defined above) as its argument and `return` a `dict` where the keys are nice month strings (e.g. "Feb 2015") and the values are a list of `[latitude,longitude]` pairs representing the location of each car crash occuring in that month (i.e. this will be a list of 2-element lists).
+
+- Create a third function `countCrashes()` which takes two arguments: first, a `dict` (in the form defined above) and second, a string naming a month and year (e.g. "Feb 2015"). This function should read the `dict`, look for the supplied month, count how many crashes happened in that month, and return a single `int` total number of crashes.
+
+- Improve the `countCrashes()` function with an `if()` statement at the beginning, which will check whether the requested month exists in the supplied `dict` or not. If it does not, you should `print()` an error message of your choice to the screen, then the function should `return` a value of `-1`.
+
+- Test these functions by running the following code:
+```
+nFeb2015 = countCrashes(dictFromList(listFromFileName("sample2k.txt")),"Feb 2015")
+print("Number of crashes in Feb 2015 = "+str(nFeb2015))
+nOct2020 = countCrashes(dictFromList(listFromFileName("sample2k.txt")),"Oct 2020")
+print("Number of crashes in Feb 2015 = "+str(nOct2020))
+```
+

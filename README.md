@@ -154,9 +154,15 @@ Hint: there are only 60 × 24 = 1440 minutes in a day, so with 2000 crashes non-
 
 - Test these functions by running the following code:
 ```
-nFeb2015 = countCrashes(dictFromList(listFromFileName("sample2k.txt")),"Feb 2015")
+# get dict from filename
+crashDict = dictFromList(listFromFileName("sample2k.txt"))
+
+# how many crashes in Feb 2015?
+nFeb2015 = countCrashes(crashDict,"Feb 2015")
 print("Number of crashes in Feb 2015 = "+str(nFeb2015))
-nOct2020 = countCrashes(dictFromList(listFromFileName("sample2k.txt")),"Oct 2020")
-print("Number of crashes in Feb 2015 = "+str(nOct2020))
+
+# do we have data on the future?
+nOct2030 = countCrashes(crashDict,"Oct 2030")
+print("Number of crashes in Feb 2015 = "+str(nOct2030))
 ```
 

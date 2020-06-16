@@ -179,3 +179,5 @@ Note: it is a common tendency to make functions that `return` a value of `-1` if
 Hint: look at [this documentation](https://www.w3schools.com/python/python_modules.asp) on how to use modules in Python.
 
 Protip: you can actually get around using the `myTools.` prefix by using an `import` command of the form `from myTools import *` instead. However, when using multiple modules in a more elaborate program, it can be helpful to keep the named source of each imported function/variable explicit in your code so you can keep track of dependencies.
+
+Bug alert: if you have trouble running newly created code files, the problem may be with permissions. Try the terminal command `chmod 755 simpleTest.py` to fix this.

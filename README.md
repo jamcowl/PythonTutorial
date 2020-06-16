@@ -2,13 +2,21 @@
 
 ## Intro
 
+<details><summary>Click to expand</summary>
+<p>
+  
 The aim of this tutorial is to facilitate trial-and-error learning, by setting you tasks you may or may not know how to complete. Some exercises may only take a few minutes to figure out, others may take a lot longer, because you are _figuring out_ the solution each time, not just following instructions. Hints are provided for tools you may wish to use and places you may find useful information, but the biggest hint of all is this: wing it.
 
 Try anything and everything that occurs to you to get the desired outcome from your code, then run it to see if it works. If it doesn't work, try something else and run it again. Google any error messages you get and try out solutions. Even if you don't find someone with your exact problem, try looking for similarities and wiggling your code around a bit, change anything you think might be a common cause of the problem.
 
 Run, run and run your code again. Python is quite a forgiving (easy to write) programming language which lends itself to a fast development cycle of coding iteratively: write code, run code, code fails, fix code, code works, write more code, code fails again, fix code again, rinse and repeat. This trial-and-error approach is a good way to learn what works and what doesn't, and develop your programmer's intuition.
 
+</p>
+</details>
+
 ### Using these tutorial files
+<details><summary>Click to expand</summary>
+<p>
 
 1. Install `brew` using the terminal command
 ```
@@ -31,8 +39,13 @@ latitude longitude HitRun year month timeofcrash
 41.334938049316406 -73.08783721923828 0.0 2015.0 1.0 14:20:00
 ... etc ...
 ```
+</p>
+</details>
 
 ## Exercises Part A
+
+<details><summary>Click to expand</summary>
+<p>
 
 ### 0. Running a Python script
 Write a Python script called `mycode.py` which can print the words "Hello World" to the screen.
@@ -90,7 +103,13 @@ Print the row number and a statement on whether the crash "was in February" or "
 
 Hint: you may wish to use [Python's `if()` command](https://www.w3schools.com/python/python_conditions.asp) and the date columns in the data.
 
+</p>
+</details>
+
 ## Exercises part B
+
+<details><summary>Click to expand</summary>
+<p>
 
 ### 10. String manipulation
 
@@ -123,3 +142,8 @@ Hint: you will have to use [Python's `dict` type](https://www.w3schools.com/pyth
 - Sort your dictionary by "hit & run" fraction and print the top 10 worst times to the screen.
 
 Hint: there are only 60 × 24 = 1440 minutes in a day, so with 2000 crashes non-uniformly distributed, there will inevitably be some overlap, but also likely some minutes with no recorded crashes at all. You may wish to start with an empty `dict` and dynamically [add entries to it](https://www.journaldev.com/23232/python-add-to-dictionary) as you read in the data line by line. You may need an `if()` statement to [check if that time already exists in the `dict`](https://able.bio/rhett/check-if-a-key-exists-in-a-python-dictionary--73iajoz). Note that [you can iterate over a `dict` using a `for` loop](https://mkyong.com/python/python-how-to-loop-a-dictionary/) in much the same way as a list. You can also [sort a `dict` by key or by value](https://www.pythoncentral.io/how-to-sort-python-dictionaries-by-key-or-value/).
+
+
+
+</p>
+</details>

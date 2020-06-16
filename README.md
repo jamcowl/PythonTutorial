@@ -152,7 +152,7 @@ Hint: there are only 60 × 24 = 1440 minutes in a day, so with 2000 crashes non-
 
 - Improve the `countCrashes()` function with an `if()` statement at the beginning, which will check whether the requested month exists in the supplied `dict` or not. If it does not, you should `print()` an error message of your choice to the screen, then the function should `return` a value of `-1`.
 
-- Test these functions by running the following code:
+- Test these functions by running the following code.
 ```
 # get dict from filename
 crashDict = dictFromList(listFromFileName("sample2k.txt"))
@@ -167,3 +167,5 @@ print("Number of crashes in Feb 2015 = "+str(nOct2030))
 ```
 
 Hint: look at [these examples](https://www.w3schools.com/python/python_functions.asp) for how to define a function with 1 or more input arguments in Python.
+
+Note: it is a common tendency to make functions that `return` a value of `-1` if they encounter an error, rather than not returning a value at all, or quitting the program entirely. This enables other parts of a program that use a function to have contingencies built in for when something strange happens.

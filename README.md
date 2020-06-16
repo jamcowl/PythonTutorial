@@ -180,7 +180,7 @@ Hint: look at [this documentation](https://www.w3schools.com/python/python_modul
 
 Protip: you can actually get around using the `myTools.` prefix by using an `import` command of the form `from myTools import *` instead. However, when using multiple modules in a more elaborate program, it can be helpful to keep the named source of each imported function/variable explicit in your code so you can keep track of dependencies.
 
-Bug alert: if you have trouble running newly created code files, the problem may be with permissions. Try the terminal command `chmod 755 someNewPythonFile.py` to fix this.
+Bug alert: if you have trouble running newly created code files, the problem may be with permissions. Try the terminal command e.g. `chmod 755 someNewPythonFile.py` to fix this.
 
 
 

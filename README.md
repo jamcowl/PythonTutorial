@@ -108,9 +108,6 @@ Hint: you may wish to use [Python's `if()` command](https://www.w3schools.com/py
 
 ## Exercises part B
 
-<details><summary>Click to expand</summary>
-<p>
-
 ### 10. String manipulation
 
 Create a new file called `output10.txt` containing just the dates from the original sample, but in a more easily readable format, e.g. instead of `2015.0 2.0 12:02:00`, write `Feb 2015, 12:02` on each line.
@@ -142,8 +139,3 @@ Hint: you will have to use [Python's `dict` type](https://www.w3schools.com/pyth
 - Sort your dictionary by "hit & run" fraction and print the top 10 worst times to the screen.
 
 Hint: there are only 60 × 24 = 1440 minutes in a day, so with 2000 crashes non-uniformly distributed, there will inevitably be some overlap, but also likely some minutes with no recorded crashes at all. You may wish to start with an empty `dict` and dynamically [add entries to it](https://www.journaldev.com/23232/python-add-to-dictionary) as you read in the data line by line. You may need an `if()` statement to [check if that time already exists in the `dict`](https://able.bio/rhett/check-if-a-key-exists-in-a-python-dictionary--73iajoz). Note that [you can iterate over a `dict` using a `for` loop](https://mkyong.com/python/python-how-to-loop-a-dictionary/) in much the same way as a list. You can also [sort a `dict` by key or by value](https://www.pythoncentral.io/how-to-sort-python-dictionaries-by-key-or-value/).
-
-
-
-</p>
-</details>

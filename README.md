@@ -108,6 +108,9 @@ Hint: you may wish to use [Python's `if()` command](https://www.w3schools.com/py
 
 ## Exercises part B
 
+<details><summary>Click to expand</summary>
+<p>
+
 ### 10. String manipulation
 
 Create a new file called `output10.txt` containing just the dates from the original sample, but in a more easily readable format, e.g. instead of `2015.0 2.0 12:02:00`, write `Feb 2015, 12:02` on each line.
@@ -182,10 +185,17 @@ Protip: you can actually get around using the `myTools.` prefix by using an `imp
 
 Bug alert: if you have trouble running newly created code files, the problem may be with permissions. Try the terminal command e.g. `chmod 755 someNewPythonFile.py` to fix this.
 
+</p>
+</details>
+
+## Exercises part C
+
 ### 16. Plotting
 
 * Create a bar graph with the name of the month on the x-axis, and the total number of crashes for each month on the y-axis.
 
 * Create a second, stacked bar graph, showing the hit-and-run crashes on top of the crashes that were not hit-and-runs.
 
-Hint: look at [this documentation](https://matplotlib.org/3.1.1/gallery/lines_bars_and_markers/bar_stacked.html) on how to make stacked bar graphs. You should be able to use a line similar to the first `bar()` to create a regular (non-stacked) bar graph as well. You may first need to install the `matplotlib` module, which you can find instructions for [here](https://matplotlib.org/3.2.2/users/installing.html#installing-an-official-release).
+Hint: look at [this documentation](https://matplotlib.org/3.1.1/gallery/lines_bars_and_markers/bar_stacked.html) on how to make stacked bar graphs. You should be able to use a line similar to the first `bar()` to create a regular (non-stacked) bar graph as well. You may first need to install the `matplotlib` module, which you can find instructions for [here](https://matplotlib.org/3.2.2/users/installing.html#installing-an-official-release). 
+
+Plot function [here](https://matplotlib.org/3.2.2/api/_as_gen/matplotlib.pyplot.plot.html)

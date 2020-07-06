@@ -182,5 +182,10 @@ Protip: you can actually get around using the `myTools.` prefix by using an `imp
 
 Bug alert: if you have trouble running newly created code files, the problem may be with permissions. Try the terminal command e.g. `chmod 755 someNewPythonFile.py` to fix this.
 
+### 16. Plotting
 
+* Create a bar graph with the name of the month on the x-axis, and the total number of crashes for each month on the y-axis.
 
+* Create a second, stacked bar graph, showing the hit-and-run crashes on top of the crashes that were not hit-and-runs.
+
+Hint: look at [this documentation](https://matplotlib.org/3.1.1/gallery/lines_bars_and_markers/bar_stacked.html) on how to make stacked bar graphs. You should be able to use a line similar to the first `bar()` to create a regular (non-stacked) bar graph as well. You may first need to install the `matplotlib` module, which you can find instructions for [here](https://matplotlib.org/3.2.2/users/installing.html#installing-an-official-release).

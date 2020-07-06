@@ -42,7 +42,7 @@ latitude longitude HitRun year month timeofcrash
 </p>
 </details>
 
-## Exercises Part A
+## Exercises part A
 
 <details><summary>Click to expand</summary>
 <p>
